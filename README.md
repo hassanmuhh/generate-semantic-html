@@ -1,7 +1,3 @@
-Certainly! Here's the README in Markdown style:
-
----
-
 # Generate Semantic HTML
 
 [![NPM Version](https://img.shields.io/npm/v/generate-semanic-html.svg)](https://www.npmjs.com/package/generate-semanic-html)
