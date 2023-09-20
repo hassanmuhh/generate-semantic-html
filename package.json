@@ -1,6 +1,6 @@
 {
-  "name": "generate-semantic-html",
-  "version": "1.0.1",
+  "name": "hcj-generator",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
