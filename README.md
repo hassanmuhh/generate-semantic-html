@@ -1,7 +1,7 @@
-# Generate Semantic HTML
+# HCJ Generator (HTML, CSS and JavaScript).
 
-[![NPM Version](https://img.shields.io/npm/v/generate-semanic-html.svg)](https://www.npmjs.com/package/generate-semanic-html)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/your-username/your-package-name/blob/main/LICENSE)
+[![NPM Version](https://img.shields.io/npm/v/hcjGenerator.svg)](https://www.npmjs.com/package/hcj-generator)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/hassanmuhh/your-package-name/blob/main/LICENSE)
 
 Generate semantic HTML for web pages easily with this npm package. This package provides a function to generate semantic HTML with optional CSS and JavaScript links.
 
@@ -10,19 +10,19 @@ Generate semantic HTML for web pages easily with this npm package. This package 
 To install this package, use npm:
 
 ```bash
-npm install generate-semantic-html
+npm install hcj-generator
 ```
 
 ## Usage
 
 ```javascript
-const generateSemantic = require('generate-semanic-html');
+const hcjGenerator = require('hcj-generator');
 
 // Generate semantic HTML
-generateSemantic('output.html', 'path/to/styles.css', 'path/to/script.js');
+hcjGenerator('output.html', 'path/to/styles.css', 'path/to/script.js');
 ```
 
-### Function: `generateSemantic(path, cssPath, jsPath)`
+### Function: `hcjGenerator(path, cssPath, jsPath)`
 
 Generates a semantic HTML file.
 
@@ -33,7 +33,7 @@ Generates a semantic HTML file.
 Example:
 
 ```javascript
-generateSemantic('output.html', 'path/to/styles.css', 'path/to/script.js');
+hcjGenerator('output.html', 'path/to/styles.css', 'path/to/script.js');
 ```
 
 ## License

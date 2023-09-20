@@ -10,7 +10,7 @@ const fs = require('fs');
 * @param {string} jsPath - The path where the file will be generated, If not defined no js link applied.
 * @return {void} - This function does not return a value.
 */
-function generateSemantic(path, cssPath, jsPath) {
+function hcjGenerator(path, cssPath, jsPath) {
   const content = semanticHtml(cssPath, jsPath)
 
   try {
@@ -22,4 +22,4 @@ function generateSemantic(path, cssPath, jsPath) {
 }
 
 // Call function with html path
-module.exports = generateSemantic
+module.exports = hcjGenerator
