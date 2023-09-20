@@ -10,7 +10,7 @@ Generate semantic HTML for web pages easily with this npm package. This package 
 To install this package, use npm:
 
 ```bash
-npm install generate-semanic-html
+npm install generate-semantic-html
 ```
 
 ## Usage
